@@ -1,3 +1,3 @@
 #### Excelsibur #### 
 
-Python project that manipualtes excel files using openpyxl library.
+Python project that manipulates excel files using openpyxl library.
