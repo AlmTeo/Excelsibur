@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
 import openpyxl, sys
-path = r"C:\Users\almmo\Desktop\ProiectExPy\example.xlsx"
-xlsx = openpyxl.load_workbook(path)
 
-# Check for sheet
-try:
-	sheet = xlsx['template']
-except Exception as e:
-	print("ERROR: Sheet name not found! Please rename the current sheet to: \"template\"")
-	sys.exit()
+
+def open_xlxs(given_path):
+	xlsx = openpyxl.load_workbook(given_path)
+	try:
+		sheet = xlsx['template']
+	except Exception as e:
+		return "ERROR: Sheet name not found! Please rename the current sheet to: \"template\""
+		
 
 
 def generate_emails(first_name, last_name, mail):
@@ -44,11 +44,5 @@ def find_names(no_of_inputs):
 		# else:
 		# 	generate_emails(first_name, last_name, mail)
 
-find_names(8)
-
-
-
-
-# sheet['B3'] = "Altceva"
 
 # xlsx.save(path)
