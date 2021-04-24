@@ -21,20 +21,32 @@ def generate_emails(first_name, last_name, mail):
 
 
 def find_names(no_of_inputs):
-	# Iterate through all inpunts and generate email from first name and last name
+	# Iterate through all inputs and generate email from first name and last name
 	for i in range(2, no_of_inputs + 2):
 		first_name = sheet['O' + str(i)].value
 		last_name = sheet['P' + str(i)].value
+		found_status = sheet['M' + str(i)].value
 
-		if first_name == None or last_name == None:
-			continue
-		else:
-			generate_emails(first_name, last_name, mail)
-
-# find_names(8)
+		print(first_name)
+		print(last_name)		
+		print(found_status)
 
 
-val = input("Enter your value: ")
+
+
+		if first_name == last_name == found_status == None:
+			break
+
+
+
+		# if first_name == None or last_name == None:
+		# 	continue
+		# else:
+		# 	generate_emails(first_name, last_name, mail)
+
+find_names(8)
+
+
 
 
 # sheet['B3'] = "Altceva"
