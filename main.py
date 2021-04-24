@@ -2,7 +2,7 @@
 # from email_generator import
 import PySimpleGUI as sg
 import os 
-
+from email_generator import *
 
 def main_window():
 	# Add a touch of color
@@ -11,7 +11,7 @@ def main_window():
 	# All the stuff inside your main window.
 	layout = [
 				[sg.Text('Enter path of the excel file:'), sg.Input(), sg.FileBrowse()],
-				[sg.Button('Ok'), sg.Button('Cancel'), sg.Button('Open')] 
+				[sg.Button('Ok'), sg.Button('Cancel')] 
 			 ]
 
 	# Create the Window
@@ -25,13 +25,10 @@ def main_window():
 			break
 
 		if event == 'Ok':
-			print('You entered ', values[0])
-			file_check = os.path.isfile(values[0])
-
 			# Check validity of introduced path
+			file_check = os.path.isfile(values[0])
 			if file_check == True:
-				pass
-				# run_the_window(sg.Window('Mail Generator', layout))
+				open_xlxs(values[0])
 			else:
 				invalid_path()
 
@@ -41,8 +38,10 @@ def main_window():
 
 
 
+
+
+
 def invalid_path():
-	# Add a touch of color
 	sg.theme('DarkBrown4')
 
 	layout = [  
@@ -50,10 +49,8 @@ def invalid_path():
 				[sg.Button('Ok')] 
 			 ]
 
-	# Create the Window
 	window = sg.Window('ERROR', layout,size=(215, 70))
 
-	# Event Loop to process "events"
 	while True:  
 		event, values = window.read()
 		if event in (sg.WIN_CLOSED, 'Ok'):
