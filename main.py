@@ -3,18 +3,17 @@
 import PySimpleGUI as sg
 import os 
 
-# Add a touch of color
-sg.theme('DarkAmber')   
 
+def main_window():
+	# Add a touch of color
+	sg.theme('DarkPurple4')
 
-# All the stuff inside your window.
-layout = [
-			[sg.Text('Enter path of the excel file:                          '), sg.InputText()],
-			[sg.Text('Enter the number of names lines in the table:'), sg.InputText()],
-			[sg.Button('Ok'), sg.Button('Cancel')] 
-		 ]
+	# All the stuff inside your main window.
+	layout = [
+				[sg.Text('Enter path of the excel file:'), sg.Input(), sg.FileBrowse()],
+				[sg.Button('Ok'), sg.Button('Cancel'), sg.Button('Open')] 
+			 ]
 
-def run_the_window():
 	# Create the Window
 	window = sg.Window('Mail Generator', layout)
 
@@ -22,16 +21,79 @@ def run_the_window():
 	while True:
 		event, values = window.read()
 		# If user closes window or clicks cancel
-		if event == sg.WIN_CLOSED or event == 'Cancel': 
+		if event in (sg.WIN_CLOSED, 'Cancel'): 
 			break
 
 		if event == 'Ok':
 			print('You entered ', values[0])
-			print('You entered ', values[1])
+			file_check = os.path.isfile(values[0])
 
+			# Check validity of introduced path
+			if file_check == True:
+				pass
+				# run_the_window(sg.Window('Mail Generator', layout))
+			else:
+				invalid_path()
 
-			value = os.path.isfile(values[0])
 
 	window.close()
 
-run_the_window()
+
+
+
+def invalid_path():
+	# Add a touch of color
+	sg.theme('DarkBrown4')
+
+	layout = [  
+				[sg.Text('Invalid path introduced!')],
+				[sg.Button('Ok')] 
+			 ]
+
+	# Create the Window
+	window = sg.Window('ERROR', layout,size=(215, 70))
+
+	# Event Loop to process "events"
+	while True:  
+		event, values = window.read()
+		if event in (sg.WIN_CLOSED, 'Ok'):
+			break
+		if event == 'Ok':
+			break
+
+	window.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+def another_window():
+	# Add a touch of color
+	sg.theme('DarkPurple3')
+
+	layout = [  [sg.Text('Filename')],
+				[sg.Input(), sg.FileBrowse()], 
+				[sg.OK(), sg.Cancel()]] 
+
+
+	# Create the Window
+	window = sg.Window('New_Window', layout)
+
+	# Event Loop to process "events"
+	while True:             
+		event, values = window.read()
+		if event in (sg.WIN_CLOSED, 'Cancel'):
+			break
+
+	window.close()
+
+
+main_window()
