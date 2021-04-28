@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-
 import openpyxl, sys
-
 
 def open_xlxs(given_path):
 	xlsx = openpyxl.load_workbook(given_path)
 	try:
 		sheet = xlsx['template']
 	except Exception as e:
-		return "ERROR: Sheet name not found! Please rename the current sheet to: \"template\""
+		invalid_sheet()
 		
 
 

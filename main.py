@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-# from email_generator import
 import PySimpleGUI as sg
 import os 
-from email_generator import *
+from email_generator import open_xlxs
 
 def main_window():
 	# Add a touch of color
@@ -28,17 +27,13 @@ def main_window():
 			# Check validity of introduced path
 			file_check = os.path.isfile(values[0])
 			if file_check == True:
+				print("OK")
 				open_xlxs(values[0])
 			else:
 				invalid_path()
 
 
 	window.close()
-
-
-
-
-
 
 
 def invalid_path():
@@ -61,7 +56,24 @@ def invalid_path():
 	window.close()
 
 
+def invalid_sheet():
+	sg.theme('DarkBrown4')
 
+	layout = [  
+				[sg.Text('Sheet name not found! Please rename the current sheet to: \"template\"')],
+				[sg.Button('Ok')] 
+			 ]
+
+	window = sg.Window('ERROR', layout,size=(215, 70))
+
+	while True:  
+		event, values = window.read()
+		if event in (sg.WIN_CLOSED, 'Ok'):
+			break
+		if event == 'Ok':
+			break
+
+	window.close()
 
 
 
