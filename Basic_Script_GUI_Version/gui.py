@@ -34,7 +34,7 @@ def main_window():
 			 ]
 
 	# Create the Window
-	window = sg.Window('Mail Generator', layout)
+	window = sg.Window('Excelsibur', layout)
 
 	# Event Loop to process "events" and get the "values" of the inputs
 	while True:
