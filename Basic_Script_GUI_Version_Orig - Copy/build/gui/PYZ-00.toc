@@ -708,54 +708,54 @@
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('packaging._structures',
-   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\_structures.py',
-   'PYMODULE'),
   ('packaging.version',
    'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\version.py',
    'PYMODULE'),
   ('packaging._compat',
    'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\_compat.py',
    'PYMODULE'),
-  ('packaging.utils',
-   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\utils.py',
+  ('packaging.__about__',
+   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\__about__.py',
    'PYMODULE'),
-  ('packaging._typing',
-   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\_typing.py',
-   'PYMODULE'),
-  ('packaging.tags',
-   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\tags.py',
-   'PYMODULE'),
-  ('packaging.specifiers',
-   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\specifiers.py',
+  ('packaging._structures',
+   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\_structures.py',
    'PYMODULE'),
   ('packaging',
    'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\__init__.py',
    'PYMODULE'),
-  ('packaging.markers',
-   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\markers.py',
+  ('packaging.specifiers',
+   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\requirements.py',
    'PYMODULE'),
   ('pyparsing',
    'd:\\programs\\python\\python 3.9.1\\lib\\site-packages\\pyparsing.py',
    'PYMODULE'),
   ('uuid', 'd:\\programs\\python\\python 3.9.1\\lib\\uuid.py', 'PYMODULE'),
-  ('packaging.__about__',
-   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\__about__.py',
+  ('packaging._typing',
+   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\_typing.py',
    'PYMODULE'),
-  ('packaging.requirements',
-   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\requirements.py',
+  ('packaging.markers',
+   'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\packaging\\markers.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.pyparsing',
+  ('pkg_resources._vendor.six',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.requirements',
+  ('pkg_resources._vendor.packaging._compat',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
+  ('pkg_resources._vendor.packaging',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging.utils',
    'd:\\programs\\python\\python '
@@ -765,33 +765,33 @@
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging.markers',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
+  ('pkg_resources._vendor.packaging.version',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
+  ('pkg_resources._vendor.pyparsing',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging._structures',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
+  ('pkg_resources._vendor.packaging.__about__',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.six',
+  ('pkg_resources._vendor',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.appdirs',
    'd:\\programs\\python\\python '
@@ -803,9 +803,9 @@
   ('win32com.shell',
    'C:\\Users\\almmo\\AppData\\Roaming\\Python\\Python39\\site-packages\\win32comext\\shell\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor',
+  ('pkg_resources._vendor.packaging.specifiers',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   '3.9.1\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('pkg_resources.extern',
    'd:\\programs\\python\\python '
@@ -815,11 +815,11 @@
   ('stringprep',
    'd:\\programs\\python\\python 3.9.1\\lib\\stringprep.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'd:\\programs\\python\\python 3.9.1\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('_py_abc',
    'd:\\programs\\python\\python 3.9.1\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'd:\\programs\\python\\python 3.9.1\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('acces_data',
    'C:\\Users\\almmo\\Desktop\\ProiectExPy\\Excelsibur\\Basic_Script_GUI_Version_Orig '
@@ -1244,56 +1244,60 @@
   ('PIL.Image',
    'd:\\programs\\python\\python 3.9.1\\lib\\site-packages\\PIL\\Image.py',
    'PYMODULE'),
-  ('PIL.ImtImagePlugin',
+  ('PIL.GbrImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
    'PYMODULE'),
   ('PIL.ImageFile',
    'd:\\programs\\python\\python 3.9.1\\lib\\site-packages\\PIL\\ImageFile.py',
    'PYMODULE'),
-  ('PIL.TgaImagePlugin',
+  ('PIL.ImtImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Hdf5StubImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PalmImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SgiImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpegImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
    'PYMODULE'),
   ('PIL.McIdasImagePlugin',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
    'PYMODULE'),
-  ('PIL.DdsImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcoImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpoImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
-   'PYMODULE'),
   ('PIL.MspImagePlugin',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\PIL\\MspImagePlugin.py',
    'PYMODULE'),
-  ('PIL.PcdImagePlugin',
+  ('PIL.XVThumbImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\CurImagePlugin.py',
    'PYMODULE'),
   ('PIL.IcnsImagePlugin',
    'd:\\programs\\python\\python '
@@ -1302,53 +1306,45 @@
   ('PIL.features',
    'd:\\programs\\python\\python 3.9.1\\lib\\site-packages\\PIL\\features.py',
    'PYMODULE'),
-  ('PIL.IptcImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
-   'PYMODULE'),
   ('PIL.FitsStubImagePlugin',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
    'PYMODULE'),
-  ('PIL.DcxImagePlugin',
+  ('PIL.MpegImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
    'PYMODULE'),
-  ('PIL.GbrImagePlugin',
+  ('PIL.PcxImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
    'PYMODULE'),
-  ('PIL.ImImagePlugin',
+  ('PIL.MicImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\ImImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.WmfImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Jpeg2KImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PixarImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XbmImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XVThumbImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BlpImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\MicImagePlugin.py',
    'PYMODULE'),
   ('PIL.XpmImagePlugin',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
    'PYMODULE'),
   ('PIL.SpiderImagePlugin',
    'd:\\programs\\python\\python '
@@ -1357,45 +1353,45 @@
   ('PIL.ImageTk',
    'd:\\programs\\python\\python 3.9.1\\lib\\site-packages\\PIL\\ImageTk.py',
    'PYMODULE'),
-  ('PIL.MicImagePlugin',
+  ('PIL.WebPImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
    'PYMODULE'),
-  ('PIL.SunImagePlugin',
+  ('PIL.ImImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\ImImagePlugin.py',
    'PYMODULE'),
-  ('PIL.PsdImagePlugin',
+  ('PIL.PalmImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
    'PYMODULE'),
   ('PIL.FliImagePlugin',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\PIL\\FliImagePlugin.py',
    'PYMODULE'),
-  ('PIL.PcxImagePlugin',
+  ('PIL.PsdImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
    'PYMODULE'),
-  ('PIL.FtexImagePlugin',
+  ('PIL.DcxImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GribStubImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FpxImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.CurImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\CurImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.WebPImagePlugin',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
    'PYMODULE'),
   ('PIL.PdfImagePlugin',
    'd:\\programs\\python\\python '
@@ -1408,13 +1404,17 @@
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\PIL\\ImageSequence.py',
    'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
   ('PIL.EpsImagePlugin',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
    'PYMODULE'),
-  ('PIL.BufrStubImagePlugin',
+  ('PIL.MpoImagePlugin',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   '3.9.1\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
    'PYMODULE'),
   ('PIL.TiffImagePlugin',
    'd:\\programs\\python\\python '
@@ -1575,29 +1575,45 @@
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
+  ('setuptools._vendor.packaging._compat',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('setuptools._vendor.six',
+  ('setuptools._vendor.packaging.version',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\six.py',
+   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.utils',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
   ('setuptools._vendor.packaging',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.six',
+   'd:\\programs\\python\\python '
+   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\six.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging._structures',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
+  ('setuptools._vendor.pyparsing',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.requirements',
    'd:\\programs\\python\\python '
@@ -1613,33 +1629,17 @@
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\setuptools\\extern\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.markers',
+  ('setuptools._vendor.ordered_set',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.specifiers',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.__about__',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
    'PYMODULE'),
   ('setuptools._vendor',
    'd:\\programs\\python\\python '
    '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.tags',
+  ('setuptools._vendor.packaging.markers',
    'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._compat',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('setuptools._vendor.ordered_set',
-   'd:\\programs\\python\\python '
-   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   '3.9.1\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
   ('setuptools.msvc',
    'd:\\programs\\python\\python '

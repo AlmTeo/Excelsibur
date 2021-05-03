@@ -19,7 +19,7 @@ def update_mail(excel_file, given_path, given_sheet, given_line, given_letter, g
 def update_mail_status(excel_file, given_path, given_sheet, given_line, given_letter, mail_status):
 	mail_status_cell = given_sheet[str(given_letter) + str(given_line)]
 	if mail_status == 1:
-		mail_status_cell.value = "built based on company rule"
+		mail_status_cell.value = "built based on company email rule"
 	if mail_status == 0:
 		mail_status_cell.value = "cannot generate email"
 
